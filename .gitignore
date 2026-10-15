@@ -1,0 +1,59 @@
+# Python and build output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local secrets and state (never commit)
+.env
+.env.*
+!.env.example
+!.env.sample
+cookies.txt
+agent-cookies.json
+config.json
+muse-code-sessions.json
+muse-code-sessions.json.tmp
+update.json
+*.har
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+.config/
+
+# Internal logs, backups, and agent state
+*.log
+logs/
+sessions/
+*.bak*
+*.orig
+*.rej
+*.swp
+*~
+.muse-code-*.tmp
+.hermes/
+.codex/
+.claude/
+.agents/
+
+# Local editor / UI experiments
+.vscode/
+.idea/
+/agyflow-home.png
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
